@@ -132,3 +132,10 @@ If you wish to contribute you can always create Issues or Pull Requests. For Pul
 
 * Add tests
 * More documentation
+* Extend Aqua for some more declarative ways, like manifests in YAML so Aqua can provide more advanced capabilities when integrating with API Gateway and Lambda :
+   - Divide both API Gateway and Lambda in two manifests (aqua_lamba.yml and aqua_gateway.yml) containing all the details for routing, lambda calls, returning types etc;
+   - Possible pipeline integration, so Lambda can stream transformations and more complex stuff to another parties of the stack (aqua_stream or aqua_pipeline.yml);
+   - Some integration with OpenAPI and Swagger, so all the boilerplate details leaved with those and take care of the pushing issues;
+   - Support for other cloud providers, or at least a CloudFoundry-like o be used in other cloud providers that supports lambdas;
+   - Integration or interfacing with OpenWhisky, that is a project to support serverless in a self-service manner.
+

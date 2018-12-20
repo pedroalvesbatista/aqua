@@ -138,4 +138,6 @@ If you wish to contribute you can always create Issues or Pull Requests. For Pul
    - Some integration with OpenAPI and Swagger, so all the boilerplate details leaved with those and take care of the pushing issues;
    - Support for other cloud providers, or at least a CloudFoundry-like o be used in other cloud providers that supports lambdas;
    - Integration or interfacing with OpenWhisky, that is a project to support serverless in a self-service manner.
-
+   - Create a IAMTrace stack to pull over IAM roles and API access key's, routing rules through API's from cloud vendors,
+   and some flavor of vault key abstraction to protecting services accounts;
+   - Introduce Lambtron :a daemon service that publishes the lambdas and all it's factories (everything related to the lambda stack, dependencies, environment etc) into the bucket's of all selected services to be pushed to; 
